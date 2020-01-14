@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+img{
+    margin: 20px;
+}
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+    margin-bottom: 10px;
+}
+.login {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.login h1 {
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+
+    padding: 20px 0 20px 0;
+
+}
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 0px;
+}
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #3274d6;
+    color: #ffffff;
+}
+.login form input[type="password"], .login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 2px solid #3274d6;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.btn {
+    width: 80%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    box-shadow: 0 0 9px 9px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s;
+}
+.navtop {
+    background-color: #2f3947;
+    height: 60px;
+    width: 100%;
+    border: 0;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+.navtop div h1, .navtop div a {
+    display: inline-flex;
+    align-items: center;
+}
+.navtop div h1 a{
+    font-size:28px;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #eaebed;
+    font-weight: bolder;
+}
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #c1c4c8;
+    font-weight: bold;
+}
+.navtop div a i {
+    padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+    color: #eaebed;
+}
+body.loggedin {
+    background-color: #f3f4f7;
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+.content h2 {
+
+    font-size: 25px;
+    border-bottom: 5px solid #2f3947;
+    color: #4a536e;
+    width: 100%;
+}
+.content > p, .content > div{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    font-size: 20px;
+    width:100%;
+    background-color: #ffffff;
+
+}
+.menu{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    background-color: #ffffff;
+    margin: 5px;
+    border-radius: 10px;
+}
+.li_name{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+
+}
+.checked{
+    color: orange;
+}
+.rating li{
+    padding: 2px;
+}
+.rating li > span{
+    font-size: 20px;
+}
+.dropdown-menu td > ul{
+    margin: 0px;
+}
+.sort h1,.sort i{
+    text-align: center;
+    font-size: 20px;
+}
+.sort{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.radio_buttons input[type="radio"]+i{
+    cursor: pointer;
+}
+.radio_buttons input[type="radio"]{
+    display: none;
+}
+select{
+    width: 80%;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+      box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+      border: 0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin:auto 10%;
+    margin-bottom: 20px;
+}
+select > option{
+    text-align: center;
+}
+.goto_btn {
+    display: block;
+    width: 50%;
+    margin:0 auto;
+    background: #009fb7;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none; 
+}
+.course_content{
+    width: 90%;
+    margin: 0 auto;
+}
+.course_content h2 {
+
+    font-size: 30px;
+    color: #4a536e;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+.course_content > div{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    font-size: 20px;
+    width:100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
